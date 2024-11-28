@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-busmanagementsystem-dev-7b186-authRole",
+      "UnauthRoleArn": "arn:aws:iam::783764600763:role/amplify-busmanagementsystem-dev-7b186-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::783764600763:role/amplify-busmanagementsystem-dev-7b186-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-busmanagementsystem-dev-7b186-deployment",
+      "UnauthRoleName": "amplify-busmanagementsystem-dev-7b186-unauthRole",
+      "StackName": "amplify-busmanagementsystem-dev-7b186",
+      "StackId": "arn:aws:cloudformation:us-east-1:783764600763:stack/amplify-busmanagementsystem-dev-7b186/af8137b0-aad2-11ef-83f5-0ee49161a803",
+      "AmplifyAppId": "d3tyejphfo3whf"
+    },
+    "categories": {
+      "auth": {
+        "busmanagementsystem8d5781f9": {}
+      }
+    }
+  },
+  "adminenv": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-busmanagementsystem-adminenv-8dec2-authRole",
+      "UnauthRoleArn": "arn:aws:iam::783764600763:role/amplify-busmanagementsystem-adminenv-8dec2-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::783764600763:role/amplify-busmanagementsystem-adminenv-8dec2-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-busmanagementsystem-adminenv-8dec2-deployment",
+      "UnauthRoleName": "amplify-busmanagementsystem-adminenv-8dec2-unauthRole",
+      "StackName": "amplify-busmanagementsystem-adminenv-8dec2",
+      "StackId": "arn:aws:cloudformation:us-east-2:783764600763:stack/amplify-busmanagementsystem-adminenv-8dec2/0edfcaa0-aad8-11ef-8aac-02b632d68db1",
+      "AmplifyAppId": "d2o0c8fzgy3z3q"
+    },
+    "categories": {
+      "auth": {
+        "busmanagementsystemb7c15126": {}
+      }
+    }
+  }
+}

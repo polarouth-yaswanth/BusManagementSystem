@@ -1,0 +1,126 @@
+/* Header.css */
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7; /* Light background color */
+  }
+  
+  .navbar {
+    background-color: #003366; /* Deep blue background */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  .navbar .navbar-brand {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  
+  .navbar .navbar-brand:hover {
+    color: #f39c12; /* Yellow color for hover effect */
+    transition: color 0.3s ease;
+  }
+  
+  .navbar .navbar-toggler-icon {
+    background-color: #fff; /* Toggler icon color */
+  }
+  
+  .navbar-nav .nav-item {
+    margin-left: 20px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #f39c12; /* Hover effect for nav links */
+    transition: color 0.3s ease;
+  }
+  
+  #brand_name {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #hover {
+    color: #fff;
+  }
+  
+  #hover:hover {
+    color: #f39c12;
+  }
+  
+  .gear {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .gear:hover {
+    transform: rotate(360deg); /* Smooth rotation effect on hover */
+  }
+  
+  .navbar-text {
+    color: #fff;
+    font-size: 1rem;
+    margin-right: 20px;
+  }
+  
+  .name-color {
+    font-weight: 600;
+    color: #f39c12;
+  }
+  
+  /* Dropdown Menu */
+  .dropdown-menu {
+    background-color: #222; /* Dark dropdown background */
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .dropdown-item {
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f39c12;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar .navbar-brand {
+      font-size: 1.3rem; /* Adjust brand size on small screens */
+    }
+  
+    .navbar-text {
+      font-size: 0.9rem;
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  
+    .navbar-nav .nav-link {
+      font-size: 1rem;
+    }
+  }
+  

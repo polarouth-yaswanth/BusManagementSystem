@@ -1,0 +1,133 @@
+/* Login.css */
+
+/* General Layout Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* Light background color */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for Login Form */
+  .col-md-4 {
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fff; /* White background for form */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading */
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input fields styling */
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group .form-control {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ddd; /* Soft border for input fields */
+  }
+  
+  .input-group .form-control:focus {
+    border-color: #007bff; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3); /* Soft focus shadow */
+  }
+  
+  .input-group-text {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /* Password Visibility Toggle */
+  .input-group-text i {
+    font-size: 1.2rem;
+  }
+  
+  /* Error message styling */
+  .alert-danger {
+    background-color: #ffcccc;
+    color: #990000;
+    border: 1px solid #990000;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Link for forgot password and switching between login/signup */
+  .login-signup {
+    color: #007bff;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  
+  .login-signup:hover {
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  button:active {
+    transform: scale(0.98); /* Slightly shrink on click for feedback */
+  }
+  
+  button.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  button.btn-secondary:hover {
+    background-color: #5a6268;
+  }
+  
+  button.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  button.btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Toggle for show password and confirm password icons */
+  .input-group-text i {
+    cursor: pointer;
+  }
+  
+  .input-group-text i:hover {
+    color: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 767px) {
+    .col-md-4 {
+      width: 90%; /* Make the form take up more space on smaller screens */
+    }
+  }
+  

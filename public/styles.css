@@ -1,0 +1,315 @@
+/* Global Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Background and Body */
+body {
+    background-color: #f4f4f9;
+    padding: 0;
+    background-image: url("https://www.transparenttextures.com/patterns/black-felt.png");
+    color: #333;
+    font-size: 16px;
+}
+
+/* Hover Effects */
+#hover:hover {
+    color: #ffbf00;
+}
+
+/* Footer Styles */
+footer {
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+    height: 0.7rem;
+    margin-bottom: 50px;
+    background-color: #f1f1f1;
+    color: #257180;
+}
+
+footer p {
+    color: #257180;
+    font-size: 14px;
+}
+
+/* Centering Elements */
+.margin {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Login and Signup Styles */
+.login-signup {
+    cursor: pointer;
+    color: #536162;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.login-signup:hover {
+    color: #000000;
+}
+
+/* Custom Icon Styles */
+.custom-icon {
+    color: darkgray;
+}
+
+.fa-eye {
+    color: darkgray;
+    cursor: pointer;
+}
+
+/* Eye Icon Hover Effects */
+.fa-eye:hover {
+    color: black;
+}
+
+/* Gear Icon for Settings */
+.gear {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 5px;
+}
+
+/* Name Color Styling (used in form fields or headers) */
+.name-color {
+    color: white;
+}
+
+/* Input Field Styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 12px;
+    margin: 8px 0;
+    width: 100%;
+    max-width: 500px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+    border-color: #ffbf00;
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #257180;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1a5e5e;
+}
+
+/* Form Container */
+#login-form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+/* Input Group Styles */
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Error Message Styling */
+.alert {
+    background-color: #ffcccc;
+    color: #cc0000;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+    border-radius: 5px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button.btn-primary {
+    background-color: #257180;
+    color: white;
+    border: none;
+}
+
+button.btn-secondary {
+    background-color: #ccc;
+    color: black;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    #login-form {
+        padding: 20px;
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+}
+
+/* Add Employee Form Styles */
+.add-employee-form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-employee-form h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #257180;
+}
+
+.add-employee-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-employee-form label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #536162;
+}
+
+.add-employee-form input {
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.add-employee-form button {
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-employee-form button:hover {
+    background-color: #218838;
+}
+
+/* Employee List Styles */
+.employee-list {
+    padding: 20px;
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.employee-list h3 {
+    font-size: 24px;
+    color: #257180;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.employee-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.employee-list li {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.employee-list li strong {
+    font-size: 18px;
+    color: #257180;
+}
+
+.employee-list li p {
+    font-size: 16px;
+    color: #536162;
+}
+
+.employee-list button {
+    background-color: #ff6347;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.employee-list button:hover {
+    background-color: #e53e3e;
+}
+
+.employee-list button.edit {
+    background-color: #ffc107;
+}
+
+.employee-list button.edit:hover {
+    background-color: #e0a800;
+}
+
+/* Add Employee Button */
+.add-employee-btn {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.add-employee-btn:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,25 @@
+/* Footer Styling */
+.footer {
+    background-color: #2c3e50; /* Dark background */
+    color: white;              /* White text color */
+    text-align: center;        /* Center the text */
+    padding: 20px;             /* Add some space around the text */
+    position: relative;        /* Keep it in place at the bottom */
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;          /* Ensures the footer is at the bottom of the page */
+    font-size: 14px;           /* Slightly smaller font size */
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer p a {
+    color: #3498db; /* Link color */
+    text-decoration: none;
+}
+
+.footer p a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}

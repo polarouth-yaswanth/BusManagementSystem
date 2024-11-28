@@ -1,0 +1,86 @@
+/* Employee List Container */
+.employee-list-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .add-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .add-button-container .btn {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+  }
+  
+  /* Table Styling */
+  .employee-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .employee-table th, .employee-table td {
+    text-align: center;
+    padding: 12px;
+  }
+  
+  .employee-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .employee-table td {
+    background-color: #ffffff;
+  }
+  
+  .employee-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .employee-table .btn {
+    padding: 5px 15px;
+    font-size: 0.9rem;
+  }
+  
+  /* Button Styles */
+  .employee-table .btn-warning {
+    background-color: #ffc107;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .employee-table .btn-warning:hover {
+    background-color: #e0a800;
+  }
+  
+  .employee-table .btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .employee-table .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .employee-table th, .employee-table td {
+      font-size: 0.9rem;
+    }
+  }
+  
